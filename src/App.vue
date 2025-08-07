@@ -1,7 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Register from './views/auth/Register.vue';
+
+</script>
 
 <template>
-  <h1>You did it! why ?</h1>
+  <Register>
+  </Register>
 </template>
 
 <style scoped></style>
